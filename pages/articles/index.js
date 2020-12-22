@@ -15,6 +15,7 @@ import { ArticlePagination } from "@components/article/pagination";
 import { Article } from "@lib/objects/article";
 
 import classes from "../../public/styles/articles.module.css";
+import Router from "next/router";
 
 export default class ArticleMainPage extends React.Component {
   /**
@@ -98,7 +99,7 @@ export default class ArticleMainPage extends React.Component {
               <section className="section-padding">
                 <div className="container">
                   <div className="row">
-                    <div className="col-md-12 col-lg-9">
+                    <div className="col-lg-12">
                       <div className="row">
                         {this.state.articles
                           .slice(0, this.state.visible)
@@ -113,11 +114,11 @@ export default class ArticleMainPage extends React.Component {
                         paging={this.props.paging}
                       />
                     </div>
-                    <div className="col-lg-3">
+                    {/* <div className="col-lg-3">
                       <div className={classes.articles_sidebar}>
                         <SearchSidebar />
                       </div>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </section>

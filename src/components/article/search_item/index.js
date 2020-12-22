@@ -45,6 +45,7 @@ export class ArticleSearchItem extends React.Component {
             width: "95%",
             background: "var(--color-primary-c)",
             borderRadius: "5px",
+            height: "100%",
           }}
         >
           <div className="blog-header">
@@ -59,9 +60,18 @@ export class ArticleSearchItem extends React.Component {
             </Link>
           </div>
           <div className="card-body">
-            <h5 className="card-title">
+            <h5
+              style={{
+                maxHeight: "49px",
+                overflow: "hidden",
+              }}
+            >
               <Link href={articleUrl}>
-                <a dangerouslySetInnerHTML={{ __html: article.title }}></a>
+                <a
+                  dangerouslySetInnerHTML={{
+                    __html: Utils.fromHTML(article.title).substr(0, 50) + "...",
+                  }}
+                ></a>
               </Link>
             </h5>
             <div className="entry-meta">
@@ -77,19 +87,19 @@ export class ArticleSearchItem extends React.Component {
                   {(Array.isArray(article.tags) ? article.tags : []).map(
                     (element, index) => (
                       <a rel="tag" key={index}>
-                        {element.name},{" "}
+                        {element.name},
                       </a>
                     )
                   )}
                 </li>
                 <li className="list-inline-item">
-                  <i className="fas fa-comment"></i>{" "}
+                  <i className="fas fa-comment"></i>
                   <a href="#">{article.commentCount} Comments</a>
                 </li>
               </ul>
             </div>
             <p className="card-text">
-              {Utils.fromHTML(article.content).substr(0, 200) + "..."}
+              {Utils.fromHTML(article.content).substr(0, 100) + "..."}
             </p>
             <Link href={articleUrl}>
               <a>
