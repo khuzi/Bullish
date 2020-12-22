@@ -3,14 +3,14 @@ const { SitemapManager } = require('./src/lib/sitemapManager');
 const withTM = require('next-transpile-modules')(['lodash-es', 'react-d3-speedometer']);
 
 
-console.log("Generating sitemap...");
-SitemapManager.buildSitemap()
-.then(()=>{
-    console.log("Sitemap generated.");
-})
-.catch((e)=>{
-    console.log("Sitemap error: ",{e});
-});
+// console.log("Generating sitemap...");
+// SitemapManager.buildSitemap()
+// .then(()=>{
+//     console.log("Sitemap generated.");
+// })
+// .catch((e)=>{
+//     console.log("Sitemap error: ",{e});
+// });
 
 
 CacheObjectManager.startCacheDaemon();
