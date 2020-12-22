@@ -51,7 +51,7 @@ export class SearchSidebar extends React.Component {
                     className="btn btn-secondary"
                     onClick={this.search}
                   >
-                    Search{" "}
+                    Search
                     <i
                       style={{ marginLeft: "0.2rem" }}
                       className="fas fa-arrow-right"
