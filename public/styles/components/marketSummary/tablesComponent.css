@@ -1,0 +1,26 @@
+.table-components .active {
+    display: inherit;
+}
+
+.table-components .hidden {
+    display: none;
+}
+
+.table-components .mdl-tabs__tab {
+    color: var(--client_palette_secondary) !important;
+    font-size: calc(1vh + 0.5vw);
+    cursor: pointer;
+}
+
+.table-components .mdl-tabs__tab-bar {
+    justify-content: left;
+}
+
+.table-components .active {
+    background-color: rgba(0, 0, 0, 0.4);
+    font-weight: bolder;
+}
+
+.table-components .mdl-tabs__panel {
+    padding-top: 2vh;
+}

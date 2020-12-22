@@ -1,0 +1,123 @@
+.tweetStyle {
+  display: flex;
+  min-width: 250px;
+  max-width: 550px;
+  width: 100%;
+  /*height: 171px;*/
+  overflow: hidden;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  transition: background-color, box-shadow;
+  transition-duration: 0.2s;
+  padding: 15px;
+  background-color: #000;
+  align-items: stretch;
+  flex-direction: column;
+  cursor: pointer;
+  border-radius: 12px;
+
+}
+
+.tweetUserInfoStyle {
+  padding-bottom: 10px;
+  padding-top: 10px;
+  display: flex;
+  align-items: stretch;
+  flex-basis: auto;
+  position: relative;
+}
+
+.tweetUserImageStyle {
+  width: 49px;
+  height: 49px;
+  border-radius: 50%;
+  overflow: hidden;
+
+}
+
+.tweetUserNameContainer {
+  max-width: calc(100% - 84px);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 5px;
+
+}
+
+.tweetUserName { /* include icon - shared style */
+  font-size: 15px;
+  white-space: nowrap;
+  font-weight: bold;
+  color: rgb(217,217,217);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', sans-serif;
+  overflow-wrap: break-word;
+  line-height: 1.3125rem;
+  text-overflow: elipsis;
+
+}
+
+.tweetUserAlias {
+  flex-shrink: 1;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', sans-serif;
+  color: rgb(110, 118, 125);
+  font-size: 14px
+}
+
+.tweetContent {
+  margin-top: 15px;
+  font-size: 19px;
+  cursor: text;
+  color: rgb(217,217,217);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', sans-serif;
+  overflow-wrap: break-word;
+  line-height: 1.3125rem;
+  text-overflow: elipsis;
+}
+
+.tweetDate { /* include info icon? */
+  display: flex;
+  margin-top: 5px;
+  text-align: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', sans-serif;
+  font-size: 15px;
+  color: rgb(110, 118, 125)
+
+}
+
+.tweetInfoIcon {
+  width: 30px;
+  height: 30px;
+  margin-right: -5px;
+
+}
+
+.tweetFooter {
+  display: flex;
+  margin-top: 5px;
+  padding-top: 5px;
+  border-top: 1px solid rgb(47, 51, 54);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', sans-serif;
+  font-size: 15px;
+  color: rgb(110, 118, 125);
+}
+
+.tweetLikesicon { /* all footer icons ? */
+  height: 30px;
+  width: 30px;
+  margin-left: -5px;
+  color: rgb(110, 118, 125)
+
+}
+
+.tweetCommentsText {
+  font-size: 15px;
+  margin-left: 5px;
+  color: rgb(110, 118, 125);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', sans-serif;
+}
+
+.twitterIcon {
+  font-size: 14pt;
+  position:  absolute;
+  right: 0px;
+}

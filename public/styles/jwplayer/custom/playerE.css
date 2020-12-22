@@ -1,0 +1,23 @@
+.playerIframeContainer {
+    margin-top: 200vh;
+}
+
+.playerIframeContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*width: 100vw;
+    min-height: 100vh;*/
+}
+
+.playerIframeContainer > iframe {
+    /*
+        width: 90vw;
+        min-height: 80vh;
+        width: 100%;
+    */
+}
+
+#ihmu > h1 {
+    color: red;
+}

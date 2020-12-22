@@ -1,0 +1,36 @@
+.mostPopularShows {
+  margin: 30px auto;
+  text-align: center
+}
+
+.showCarousel  {
+  font-family: 'Open Sans', sans-serif;
+  margin: 60px auto;
+  width: 100%;
+  /*max-width: 1000px;*/
+  margin-bottom: 0px;
+}
+
+ .carouselCard  {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly
+}
+
+.showCarousel .wideBanner  {
+  min-width: 100%;
+}
+
+.showCarousel .description {
+  margin: 30px;
+}
+
+@media(min-width:1024px) {
+  .carouselCard {
+    flex-direction: row;
+  }
+  .showCarousel .wideBanner {
+    min-width: 65%;
+    width: 65%;
+  }
+}

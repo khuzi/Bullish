@@ -1,0 +1,65 @@
+*   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *
+*   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *
+*   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *
+[x]  On the chart - Robinhood has a good mobile UI function. Can we leverage 
+    the same framework/ UI they are using. Works well across both mobile + desktop. 
+    The click and drab over the chart will help..a fixed chart identifier on 
+    top of the line graph. https://robinhood.com/stocks/FSR
+
+[]  I was thinking a lot about the ticker page design and charts. At the 
+    top of every Stock page, we will want a few bits of info to display. 
+    We will will use the twitter data, financial stock api for price and 
+    our writer will fill in a "Company overview" section.
+
+[]  "Conversation Volume Chart" let's see what you can do on the ticker bar chart. 
+    We wanna add in Ridgeline chart (speac below)
+    (Thin ridgeline chart across the top -- examples below).
+    Shows the 3 month count of tweets, smooth graph. 
+    These guys made cool examples that would work well for us.
+
+[]  Existing blog posts: whatever is easiest for you that will keep the articles 
+    (and URL) structurally ok. We have been connecting our articles together for 
+    SEO purposes and need to ensure none of those link break. We can get you 
+    access to our wordpress page. 
+
+Website: Ticker page / Charts:
+[]  the long term plan is to have bullish.studio be the test domian. 
+    When ready, we point the bullish.news domain at the AWS server 
+    and keep .studio as our beta area, password protected. 
+
+[x]  can we speed up the neon animation by like 2-3x and make the 
+    border like 3-4 pixels...thin. It should be on the outer border 
+    where the black is. Can we delay the neon on the recommended 
+    video borders like 10 sec on player load.
+
+[x]  move the title of the video above the player, keep description 
+    below the video.
+
+[x]  tighten up the spacing up top. Make 'new' border a lil rounder and 
+    smaller than the 'Recommended Video' font. Even/ center it up it 
+    up with the Bullish logo on the right.
+
+[x]  The title/ desc that's called outside the player does not match the video.
+
+[x]  The recommended model needs a bit of attention. THe text is coming in weird. 
+    Can we mimic the design previously provided..the tile images are the big 
+    thing, and create it's own separate box w/ diff background color. 
+    Add arrows and auto scroll 2-3 videos after .5 sec...show off our 
+    thumbnails. YouTube's formatting is very clean.
+
+[]  Ad schedule: Can we make the lead video auto play, and ad an ad break at 
+    the 10 sec mark. @Andrew Stella can ensure we map the right tag to it.
+
+[]  Control the website stock pages (add in tesla description)
+
+[]  establish a universal video ID - will connect the JW player to all other 
+    reporting areas. For example, a video about Google will run on our partner 
+    sites Primis (3rd party distributor sending reporting data via API) 
+    have an article on our website (GA data) and Youtube analytics. Get a 
+    holistic picture of how well a video is doing. We will get you all the connectors 
+
+[]  add new article blog posts (do we lean on Wordpress to help w/ this?)
+
+[]  control certain video player functions (when the players start to roll out, 
+    we'll want a way to make tweaks to certain elements (i.e. 'force/ prioritize ' 
+    a video, change the CTA, etc)

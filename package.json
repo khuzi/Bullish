@@ -1,0 +1,42 @@
+{
+  "name": "twitterbullish_nextjs",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start -p 3005"
+  },
+  "dependencies": {
+    "axios": "^0.21.0",
+    "bootstrap": "^5.0.0-beta1",
+    "chart.js": "^2.9.4",
+    "d3": "^6.3.1",
+    "dayjs": "^1.9.6",
+    "html-to-text": "^6.0.0",
+    "jquery": "^3.5.1",
+    "marked": "^1.2.5",
+    "moment": "^2.29.1",
+    "moment-timezone": "^0.5.32",
+    "next": "10.0.1",
+    "next-transpile-modules": "^4.1.0",
+    "nextjs-cors": "^1.0.1",
+    "numeral": "^2.0.6",
+    "popper.js": "^1.16.1",
+    "qs": "^6.9.4",
+    "react": "17.0.1",
+    "react-d3-speedometer": "^1.0.1",
+    "react-datepicker": "^3.3.0",
+    "react-dom": "17.0.1",
+    "react-helmet": "^6.1.0",
+    "react-slick": "^0.27.13",
+    "react-table": "^7.6.2",
+    "react-widgets": "^4.6.1",
+    "recharts": "^1.8.5",
+    "rxjs": "^6.6.3",
+    "slick-carousel": "^1.8.1",
+    "styled-components": "^5.2.1",
+    "validate.js": "^0.13.1",
+    "xmlbuilder2": "^2.4.0"
+  }
+}

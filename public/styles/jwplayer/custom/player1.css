@@ -1,0 +1,540 @@
+:root {
+    --play-button-background: rgb(12, 76, 198);
+}
+
+.jwplayer.jw-state-idle .jw-display-controls .jw-display-icon-container, .jwplayer.jw-state-idle .jw-display-controls .jw-display-icon-container:hover {
+    background-color: var(--play-button-background);
+    -webkit-transition: -webkit-transform 0.35s;
+    transition: transform 0.35s;
+    border-radius: 50%;
+}
+  
+.jwplayer.jw-state-idle .jw-display-controls .jw-display-icon-container .jw-icon, .jwplayer.jw-state-idle .jw-display-controls .jw-display-icon-container .jw-icon:hover {
+    color: #fff;
+    padding: 20px;
+}
+
+.jwplayer.jw-skin-alaska.jw-state-idle .jw-display-controls .jw-display-icon-container {
+    background-color: var(--play-button-background);
+    -webkit-transition: -webkit-transform 0.35s;
+    transition: transform 0.35s;
+}
+  
+.jwplayer.jw-skin-alaska.jw-state-idle .jw-display-controls .jw-display-icon-container .jw-icon {
+    color: #fff;
+    padding: 20px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.row {
+    display: flex;
+    justify-content: flex-start;
+    align-items: stretch;
+    flex-wrap: nowrap;
+    padding: 10px;
+}
+
+#ion5.row {
+    padding: 0px;
+}
+
+.cell {
+    min-height: 75px;
+    flex-grow: 1;
+    flex-basis: 100%;
+}
+
+#ij56 {
+    flex-basis: 107%;
+    background: white;
+}
+
+#ii4l {
+    color: black;
+}
+
+#ihmu h1 {
+    padding: 10px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    font-weight: 700;
+    font-family: Helvetica, Trebuchet MS, sans-serif;
+    color: black;
+    font-size: 25px;
+}
+
+#iauj {
+    padding: 10px;
+    color: rgb(93, 93, 93);
+    font-weight: 500;
+    font-size: 1.2em;
+    text-align: justify;
+}
+
+#ijoro {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-repeat: repeat;
+    background-position: left top;
+    background-attachment: scroll;
+    background-size: auto;
+    color: #ffffff;
+    height: auto;
+    font-weight: bold;
+}
+
+#ijoro > div {
+    padding: 5px;
+    width: fit-content;
+    background-image: linear-gradient(#d86164, #d86164);
+    border-radius: 5px;
+    transform: scale(0.7);
+}
+
+#in6bg {
+    position: relative;
+    /*width: 100%;*/
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    justify-content: center;
+    transform: scale(0.7);
+}
+
+#in6bg > div {
+    font-size: 1.3em;
+    font-family: sans-serif;
+    color: rgb(93, 93, 93);
+}
+
+@media(max-width: 400px){
+    #in6bg > div {
+        font-size: 0.9em;
+    }
+
+    #videoAction {
+        justify-content: flex-end;
+    }
+}
+
+#iwpts {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    min-height: 60px;
+    max-height: 60px;
+    flex-basis: auto;
+    flex-grow: 0;
+}
+
+#imgge {
+    flex-direction: row;
+    padding-left: 0px;
+    padding-top: 0%;
+    padding-bottom: 0px;
+}
+
+
+#videoAction img {
+    max-height: 8em;
+    max-width: 8em;
+}
+
+@media (max-width: 768px) {
+    .row {
+        flex-wrap: wrap;
+    }
+    
+    /*
+    .video-text-content {
+        display: flex;
+        flex-direction: column-reverse;
+        overflow: hidden;
+    }
+    */
+
+    #videoAction {
+        padding-top: 0.5em;
+        margin-left: 0em !important;
+        justify-content: flex-end !important;
+    }
+
+    #iauj {
+        padding-top: 0.5em;
+    }
+    /*
+    #videoAction img {
+        width: 15vw;
+        height: 15vw;
+        max-width: 100%;
+        max-height: 100%;
+    }
+    */
+
+}
+
+#playerDiv {
+    width: 100%;
+    z-index: 21;
+}
+
+#purpleImageContainer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+@media (min-width: 400px){
+    #purpleImageContainer > img {
+        max-height: 2em;
+    }
+}
+#purpleImageContainer > img {
+    position: relative;
+    max-width: 100%;
+    max-height: 1.5em;
+}
+
+.video-content {
+    padding: 1em;
+    padding-top: 0em;
+}
+
+#lightSlider li {
+    /*background: white;*/
+    background: white;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    overflow: hidden;
+    justify-content: flex-end;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.lSSlideWrapper .lSAction>.lSPrev {
+    background-color: black;
+    border-radius: 50%;
+    opacity: 1;
+    background-position: 1px 0;
+}
+
+.lSSlideWrapper .lSAction>.lSNext {
+    background-color: black;
+    border-radius: 50%;
+    opacity: 1;
+    background-position: -33px 0;
+}
+
+#lightSlider .content {
+    color: white;
+    background: rgba(0, 0, 0, 0.60);
+    padding-bottom: 0px;
+    padding-top: 0px;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+#lightSlider .image-container {
+    flex: 1;
+}
+
+#lightSlider .play-button {
+    position: absolute;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.80);
+    opacity: 0;
+    transition: 0.3s;
+    cursor: pointer;
+    z-index: 22;
+}
+
+#lightSlider .play-button:hover {
+    opacity: 1;
+}
+#lightSlider .play-button svg {
+    fill: white;
+    width: 30px;
+    height: 30px;
+}
+
+#lightSlider .text-container {
+    position: absolute;
+    z-index: 21;
+    /*color: white;*/
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+}
+
+.watch-later {
+    font-size: 2em;
+    font-family: sans-serif;
+    margin-bottom: 5px;
+    padding: 0.5em;
+}
+
+#lightSlider .text-container .first {
+    font-size: 0.8em;
+}
+
+#lightSlider .text-container .second > *, #lightSlider .text-container .first > * {
+    margin: 0em;
+    margin-top: 5px;
+}
+
+#lightSlider .text-container .second {
+    box-orient: vertical;
+    -webkit-box-orient: vertical;
+    display: box;
+    display: -webkit-box;
+    max-height: 2.5em;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    line-height: 1.25;
+    text-overflow: ellipsis;
+    font-weight: normal;
+    font-size: 0.8em;
+    display: none;
+}
+
+#lightSlider .text-container .first {
+    box-orient: vertical;
+    -webkit-box-orient: vertical;
+    display: box;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    line-height: 1.25;
+    text-overflow: ellipsis;
+    font-weight: normal;
+    font-size: 0.8em;
+}
+
+.jw-display-icon-container.jw-display-icon-display.jw-reset:hover {
+    background-color: rgb(38, 59, 45, 0.80);
+    transition: 200ms;
+}
+
+#lightSlider .text-container-b {
+    /*background: rgba(0,0,0,0.60);*/
+    font-family: sans-serif;
+}
+
+#somethingHere {
+    padding: 2em;
+}
+
+.item-content {
+    z-index: 20;
+    padding: 5px;
+}
+
+.watch-later-container {
+    border-radius: 16px;
+    padding-bottom: 2em;
+}
+
+.watch-later-videos {
+    padding-left: 1em;
+    padding-right: 1em;
+    overflow: hidden;
+}
+
+.video-text-content {
+    display: flex;
+}
+
+#videoAction {
+    margin-left: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#videoAction button {
+    font-weight: bold;
+    font-size: 1.5em;
+    background: rgb(58, 72, 64);
+    color: white;
+    border-radius: 5px;
+    border: 0px;
+    padding: 0.5em;
+    width: max-content;
+    height: fit-content;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+#videoAction img {
+    transition: 0.2s;
+    cursor: pointer;
+    margin-top: 1em;
+}
+
+#videoAction img:hover {
+    transform: scale(1.1);
+}
+
+.loading-screen {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    background: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+}
+
+.loading-screen.hidden {
+    display: none;
+}
+
+.loading-screen h1 {
+    width: fit-content;
+    height: fit-content;
+    font-family: sans-serif;
+}
+
+.rounded {
+    border-radius: 16px;
+    overflow: hidden;
+}
+
+.item-content .duration {
+    position: absolute;
+    background: black;
+    background: rgba(0,0,0,.80);
+    bottom: 0;
+    color: white;
+    padding: 3px;
+    font-weight: bolder;
+    font-size: 0.8em;
+    left: 0;
+}
+
+/*Vertical*/
+#lightSlider.vertical {
+    padding-inline-start: 0
+}
+
+#lightSlider.vertical li {
+    position: relative;
+    /*flex-direction: row;*/
+    flex-direction: row-reverse;
+    padding-top: 1em;
+    background: white;
+    border-radius: 5px;
+}
+
+#lightSlider.vertical li .text-container {
+    position: relative;
+    width: 60%;
+    justify-content: flex-start;
+    font-size: 12pt;
+}
+
+#lightSlider.vertical li .play-button {
+    width: 100%;
+    left: 0
+}
+
+#lightSlider.vertical li {
+    z-index: 0;
+}
+
+#lightSlider.vertical .play-button:hover {
+    opacity: 0;
+}
+
+#lightSlider.vertical .text-container-b {
+    background: transparent;
+    color: black;
+}
+
+#lightSlider.vertical .item-content {
+    width: 40%;
+}
+
+#lightSlider.vertical .text-container .first {
+    -webkit-line-clamp: 3;
+}
+
+#lightSlider.vertical .text-container .second > *, #lightSlider.vertical .text-container .first > * {
+    font-size: 1em;
+}
+
+.recommended-logo {
+    width: 10%;
+    position: absolute;
+    top: 0.5em;
+    right: 0.5em;
+    z-index: 20;
+    /*background: rgba(255,255,255,0.60);*/
+    border-radius: 20%;
+}
+
+.read-more {
+    font-weight: bolder;
+    padding-left: 0.5em;
+    cursor: pointer;
+}
+
+.read-more-button {
+    position: absolute;
+    color: white;
+    margin: 0.5em;
+    border-radius: 0.2em;
+    padding: 0.5em;
+
+    background: linear-gradient(#d86164, #d86164);
+    color: white;
+    font-weight: bolder;
+}
+
+.read-more-button-container {
+    padding: 1em;
+    position: relative;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media(min-width: 600px){
+    .read-more-button-container {
+        display: none;
+    }
+}
+
+
+
+.watch-more.span-container {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.watch-more.span-container span {
+    font-weight: bolder;
+    padding: 0.5em;
+    cursor: pointer;
+}

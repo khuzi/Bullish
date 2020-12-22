@@ -1,0 +1,17 @@
+#slider-container {
+    height: 2em;
+}
+
+/* To pass to original slider component .css*/
+
+.slider-container .label.EE{
+    right: -2em;
+}
+
+.slider-container .label.WW{
+    left: -2em;
+}
+
+.recharts-brush-slide {
+    fill-opacity: 0.9;
+}

@@ -1,0 +1,385 @@
+.nav-bar {
+    background-color: #336648;
+    height: 100px;
+    margin-left:-10px;
+    margin-right: -10px;
+    margin-top: -10px;
+    margin-bottom: 100px;
+    width: 100%;
+    position: fixed;
+    z-index: 3;
+    display: flex;
+}
+#title {
+    color: #f1ebf2;
+    font-family: 'Old Standard TT';
+    padding-top: 20px;
+    padding-left: 40px;
+    display: flex;
+}
+#graph-cont {
+    padding-top: 100px;
+    z-index: 0;
+    display: flex;
+}
+
+#info-cont {
+    padding-top: 5vh;
+}
+
+@media(max-width: 1200px){
+    #graph-cont {
+        display: block;
+    }
+}
+
+@media(min-width: 1201px){
+    #graph-cont {
+        padding-left: 1vw;
+    }
+
+    .stock-combochart {
+        margin-right: 1em;
+    }
+}
+
+.red {
+    color:red;
+}
+.green {
+    color: green;
+}
+
+#no-show {
+    display:none;
+}
+#instruct {
+    text-align: center;
+}
+#deep {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+}
+#deep-b {
+    font-family: Roboto;
+    font-style: bold;
+    font-style: italic;
+    font-size: 50px;
+    margin-left:20px;
+}
+#deep-cont {
+    display: flex;
+}
+#fang {
+    color: black;
+    padding-right: 10px;
+    padding-left:10px;
+}
+#toggle {
+    display: flex;
+    padding-top: 10px;
+    margin-top: 0px;
+    margin-left: 100px;
+    background-color: #f1ebf2;
+    border-radius: 30px;
+    height: 100%;
+}
+#ball {
+    background-color:#b854c9;
+    color: #b854c9;
+    height:60px;
+    width: 60px;
+    border-radius: 50%;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+#show {
+    display: block;
+}
+.dd {
+    color: #42bd5a;
+    font-family: 'Roboto';
+    font-weight: bolder;
+}
+#tabs {
+    display: flex;
+    padding-top: 105px;
+    background-color: darkgray;
+    max-width: 100vw;
+}
+#tab {
+    background-color: white;
+    margin-left: 20px;
+    min-width: 15%;
+    border-bottom: solid #336648 ;
+    margin-top: -10px;
+    text-align: center;
+    box-shadow: 10px 0px 10px darkslategray;
+    font-family: 'Roboto';
+
+}
+#tab-off {
+    background-color: rgb(156, 154, 154);
+    margin-left: 20px;
+    min-width: 15%;
+    margin-top: -10px;
+    text-decoration: underline;
+    text-align: center;
+    color: rgb(95, 92, 92);
+    font-family: 'Roboto';
+
+}
+#login {
+    width: 30%;
+}
+#login-form {
+    display: flex;
+    justify-content: center;
+}
+#tables {
+    display: flex;
+    margin-top: 50px;
+}
+#btns {
+    margin-top: 200px;
+}
+#btn-cont {
+    display: flex;
+    justify-content: center;
+}
+#btn {
+    margin-left: 10px;
+}
+#login-cont {
+    margin-top: 50px;
+}
+#footer {
+    margin-top: 200px;
+    display: flex;
+
+}
+#us {
+    margin-left: 20px;
+    padding-top: 10px;
+}
+#graphs {
+    display:flex;
+    margin-top: 100px;
+}
+@font-face {
+    font-family: 'roboto';
+    src: url('/fonts/RobotoCondensed-Bold.ttf');
+}
+@font-face {
+    font-family: 'old-standard';
+    src: url('/fonts/OldStandard-Bold.ttf');
+    src: local('Open Sans'), local('OpenSans'),
+         url('/fonts/OldStandard-Bold.ttf') format('truetype');
+
+}
+#bar {
+    padding-left: 50px;
+}
+#line {
+    padding-left: 50px;
+}
+#day {
+    font-family: 'Roboto';
+    font-weight: bolder;
+    color: #336648;
+
+}
+#avg {
+    font-family: 'Roboto';
+    font-weight: bold;
+    color:#336648 ;
+}
+.nav-bar2 {
+    background-color: #336648;
+    height: 100px;
+    margin-left:-10px;
+    margin-right: -50px;
+    margin-top:-10px;
+    width: 100%;
+    z-index: 6;
+    position: fixed;
+    display: flex;
+}
+.ball {
+    margin-right:10px;
+}
+.tabs {
+    padding-top:100px;
+    z-index: 0;
+}
+.tab {
+    margin-top: 10px;
+}
+#footer-cont {
+    justify-content: center;
+}
+#m-graph-cont {
+    margin-left: 10px;
+    margin-top: 20px;
+}
+#m-graph {
+    margin-top: 50px;
+}
+#table {
+    margin-left: 5%;
+}
+#m-title {
+    margin-bottom: 40px;
+}
+
+.container {
+    margin-left: 0em !important;
+    margin-right: 0em !important;
+}
+
+.pagination-section .mr-1 {
+    border-left: 2px solid grey;
+    padding-left: 0.3rem;
+    margin-left: 1em;
+}
+
+.table-container-1 {
+    max-width: 100%;
+}
+
+@media(max-width: 1440px){
+    .table-container-1 .pagination {
+        flex-direction: column;
+    }
+    
+    .table-container-1 .pagination-section .mr-1 {
+        border-left: none;
+        padding-left: 0em;
+    }
+
+    .table-container-1 .pagination-section:nth-child(2) {
+        margin-top: 10px;
+    }
+}
+#username {
+    margin-left: 10%;
+    margin-top: 20px;
+    color: white;
+}
+.show {
+    display: block;
+}
+.no-show {
+    display: none;
+}
+.btn-update {
+    background-color: black;
+    color: white;
+    transform: translate(0%,-175%);
+    margin-left: 20%;
+}
+
+@media(max-width: 596px) {
+    .stock-page .pagination {
+        flex-direction: column;
+        align-items: center;
+    }
+    .stock-page .pagination-section {
+        margin-top: 1em;
+        border-left: 0em;
+    }
+
+    .stock-page .pagination .mr-1 {
+        border-left: 0px;
+        margin-left: 0em;
+    }
+}
+
+.market .stock-table-container tr > td:nth-child(2){
+    font-weight: bolder;
+    color: rgba(40, 100, 40, 1);
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+/* unvisited link */
+a.unstyled-link:link {
+    color: var(--client_palette_secondary);
+    text-decoration: none;
+}
+
+/* visited link */
+a.unstyled-link:visited {
+    color: var(--client_palette_secondary);
+    text-decoration: none;
+}
+
+/* mouse over link */
+a.unstyled-link:hover {
+    color: var(--client_palette_secondary);
+    text-decoration: none;
+}
+
+/* selected link */
+a.unstyled-link:active {
+    color: var(--client_palette_secondary);
+    text-decoration: none;
+}
+
+.stock-filters {
+    max-width: 40em;
+}
+
+.stock-filters .filter {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    padding-left: 2em;
+}
+
+.stock-filters .filter .stockpage-dropdown {
+    flex: 1;
+}
+
+.weekly_filters, .daily_filters {
+    display: flex;
+}
+
+.weekly_filters div, .daily_filters div {
+    flex: 1;
+}
+
+.weekly_filters .rw-widget {
+    margin-right: 1em;
+}
+
+.stock-combochart #slider-container {
+    max-width: 90%
+}
+
+.stock-combochart #slider-box {
+    margin-left: 5%;
+}
+
+.stock-combochart .slider-container {
+    background-color: transparent !important;
+    border: 2px solid grey;
+}
+
+.stock-combochart .slider {
+    background-color: rgba(255, 255, 255, 0.20);
+    border: 0;
+    border-left: 1px solid grey;
+    border-right: 1px solid grey;
+}
+
+.stock-combochart .handle {
+    background-color: black !important;
+}
+
+.highlight-bar-charts .combo-chart-title {
+    margin-bottom: 5px;
+}
+
+

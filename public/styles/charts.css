@@ -1,0 +1,90 @@
+.ridgeline-values-labels {
+    margin-bottom: 16px;
+}
+
+.date-label {
+    color: #FFF;
+    font-size: .9rem;
+    opacity: .4;
+    padding: 10px;
+}
+
+.value-label {
+    color: #FFF;
+    font-size: 1.6rem;
+    opacity: .54;
+    padding: 0;
+}
+
+.ridgeline-title {
+    color: #FFF;
+    text-align: center;
+    justify-self: center;
+}
+
+.chart-container {
+    width:765px;
+    height: 180px;
+    background-color: #FFF;
+    padding: 20px;
+    padding-bottom: 50px;
+    color: #000
+}
+
+.chart-container.ridge {
+    width: 100%;
+}
+
+.chart-controls {
+    padding: 0 30px;
+    margin: 0 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.chart-controls label {
+    margin-right: 15px;
+}
+
+.chart-container span {
+    padding: 0 40px;
+    font-size: 1.5rem;
+}
+
+.selected {
+    text-decoration: underline;
+    font-weight: bold;
+    color: #000
+}
+
+@media(max-width: 600px){
+    .chart-container.ridge {
+        margin: 0px;
+    }
+
+    .chart-container span {
+        padding: 0 30px;
+        font-size: 1.2rem;
+    }
+}
+
+@media(max-width: 600px){
+    .chart-container.ridge {
+        margin: 0px;
+    }
+
+    .chart-container span {
+        padding: 0 15px;
+        font-size: 1rem;
+    }
+}
+
+.ridge-period {
+    cursor: pointer;
+    color: #000
+}
+
+.ridge-period.selected{
+    cursor: default;
+}

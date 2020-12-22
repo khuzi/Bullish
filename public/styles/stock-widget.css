@@ -1,0 +1,41 @@
+.stock-widget-container {
+  width: 49.5%;
+  margin-bottom: 4px;
+  box-sizing: border-box;
+  color: rgb(237, 240, 242);
+  font-size: 0.08125rem;
+  padding: 20px 11px;
+  font-family:'Open sans', sans-serif;
+  background-color: rgb(28, 28, 28);
+  text-align: center;
+}
+
+.stock-widget-link {
+  color: rgb(169, 92, 192);
+  color: var(--color-accent-c);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.stock-widget-link h6 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-weight: 500;
+}
+
+.stock-widget-link img {
+  background-color: rgb(28, 28, 28);
+  margin: 1px 0 8px;
+  border: 2px solid rgb(28, 28, 28);
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  object-fit: scale-down;
+  transform: scale(1);
+}
+
+.stock-widget-link p {
+  font-size: 0.6875rem;
+  font-weight: 500;
+}

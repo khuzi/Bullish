@@ -1,0 +1,152 @@
+{
+    "index": [
+        {
+            "property": "og:type",
+            "content": "website"
+        },
+        {
+            "property": "og:url",
+            "content": "https://www.bullish.studio"
+        },
+        {
+            "property": "og:title",
+            "content": "SEO_TITLE_GOES_HERE"
+        },
+        {
+            "property": "og:description",
+            "content": "SEO_DESCRIPTION_GOES_HERE"
+        },
+        {
+            "property": "og:image",
+            "content": "https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png"
+        },
+        {
+            "property": "twitter:card",
+            "content": "summary_large_image"
+        },
+        {
+            "property": "twitter:url",
+            "content": "https://www.bullish.studio"
+        },
+        {
+            "property": "twitter:title",
+            "content": "SEO_TITLE_GOES_HERE"
+        },
+        {
+            "property": "twitter:description",
+            "content": "SEO_DESCRIPTION_GOES_HERE"
+        },
+        {
+            "property": "twitter:image",
+            "content": "https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png"
+        },
+        {
+            "property": "title",
+            "content": "SEO_TITLE_GOES_HERE"
+        },
+        {
+            "property": "description",
+            "content": "SEO_DESCRIPTION_GOES_HERE"
+        }
+    ],
+    "stock": [
+        {
+            "property": "og:type",
+            "content": "website"
+        },
+        {
+            "property": "og:url",
+            "content": "https://www.bullish.studio"
+        },
+        {
+            "property": "og:title",
+            "content": "SEO_TITLE_GOES_HERE"
+        },
+        {
+            "property": "og:description",
+            "content": "SEO_DESCRIPTION_GOES_HERE"
+        },
+        {
+            "property": "og:image",
+            "content": "https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png"
+        },
+        {
+            "property": "twitter:card",
+            "content": "summary_large_image"
+        },
+        {
+            "property": "twitter:url",
+            "content": "https://www.bullish.studio"
+        },
+        {
+            "property": "twitter:title",
+            "content": "SEO_TITLE_GOES_HERE"
+        },
+        {
+            "property": "twitter:description",
+            "content": "SEO_DESCRIPTION_GOES_HERE"
+        },
+        {
+            "property": "twitter:image",
+            "content": "https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png"
+        },
+        {
+            "property": "title",
+            "content": "SEO_TITLE_GOES_HERE"
+        },
+        {
+            "property": "description",
+            "content": "SEO_DESCRIPTION_GOES_HERE"
+        }
+    ],
+    "market": [
+        {
+            "property": "og:type",
+            "content": "website"
+        },
+        {
+            "property": "og:url",
+            "content": "https://www.bullish.studio"
+        },
+        {
+            "property": "og:title",
+            "content": "SEO_TITLE_GOES_HERE"
+        },
+        {
+            "property": "og:description",
+            "content": "SEO_DESCRIPTION_GOES_HERE"
+        },
+        {
+            "property": "og:image",
+            "content": "https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png"
+        },
+        {
+            "property": "twitter:card",
+            "content": "summary_large_image"
+        },
+        {
+            "property": "twitter:url",
+            "content": "https://www.bullish.studio"
+        },
+        {
+            "property": "twitter:title",
+            "content": "SEO_TITLE_GOES_HERE"
+        },
+        {
+            "property": "twitter:description",
+            "content": "SEO_DESCRIPTION_GOES_HERE"
+        },
+        {
+            "property": "twitter:image",
+            "content": "https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png"
+        },
+        {
+            "property": "title",
+            "content": "SEO_TITLE_GOES_HERE"
+        },
+        {
+            "property": "description",
+            "content": "SEO_DESCRIPTION_GOES_HERE"
+        }
+    ]
+}
